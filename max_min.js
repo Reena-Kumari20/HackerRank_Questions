@@ -20,7 +20,5 @@ let mini=Math.min(...arr2)
 // console.log(mini)
 t=arr2.indexOf(mini)
 s=arr2.splice(t,1)
-// console.log(arr2)
-
 const p = (o,n) => o+ n;
 console.log(arr2.reduce(p));
